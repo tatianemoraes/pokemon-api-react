@@ -1,0 +1,17 @@
+.back {
+  display: flex;
+  align-items: center;
+  align-content: center;
+  height: 100vh;
+  width: 100vw;
+}
+
+.btn-back {
+  margin-top: -330px;
+}
+
+@media (max-width: 375px) {
+  .btn-back {
+    margin-top: -240px;
+  }
+}

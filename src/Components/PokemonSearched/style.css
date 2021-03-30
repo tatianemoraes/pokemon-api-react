@@ -1,0 +1,35 @@
+.pokemon-content {
+  display: flex;
+  align-items: center;
+  align-content: center;
+  justify-content: center;
+}
+
+.infos {
+  display: flex;
+  align-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin-left: -65px;
+  width: 150px;
+}
+
+h4 {
+  margin-left: -19px;
+}
+
+@media (min-width: 375px) {
+  .pokemon-content {
+    flex-direction: column;
+  }
+
+  .infos {
+    display: flex;
+    align-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-left: 0px;
+    margin-top: 30px;
+    width: 0px;
+  }
+}
